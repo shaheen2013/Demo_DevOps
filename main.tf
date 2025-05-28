@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "terraform_state1" {
   provider = aws
-  bucket = "my-terraform-bucket-for-demo5"  # Replace with a globally unique name
+  bucket = "my-terraform-bucket-for-demo1"  # Replace with a globally unique name
   tags = {
     Name        = "Terraform Bucket"
     Environment = "demo"
@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "terraform_state1" {
 
 resource "aws_s3_bucket" "terraform_state2" {
   provider = aws
-  bucket = "my-terraform-bucket-for-demo6"  # Replace with a globally unique name
+  bucket = "my-terraform-bucket-for-demo2"  # Replace with a globally unique name
   tags = {
     Name        = "Terraform Bucket"
     Environment = "demo"
